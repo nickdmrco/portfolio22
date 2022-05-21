@@ -6,9 +6,9 @@ function NavBar() {
  return (
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
    <div class="container-fluid">
-    <NavLink className="nav-link" aria-current="page" to="/">
+    <NavLink className="nav-link" aria-current="page" to="/portfolio22">
      <img src={logo} alt="" width="225" height="54"></ img>
-     </NavLink>
+    </NavLink>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@ function NavBar() {
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
      <ul class="navbar-nav ">
       <li class="nav-item">
-       <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+       <NavLink className="nav-link" aria-current="page" to="/portfolio22">Home</NavLink>
       </li>
       <li class="nav-item">
        <NavLink className="nav-link" to="/projects">Projects</NavLink>

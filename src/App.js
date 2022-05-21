@@ -5,12 +5,14 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import About from './pages/About';
 import NavBar from './components/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <NavBar />
+
       <Routes>
         <Route path='/portfolio22' element={<Home />} />
         <Route path='/projects' element={<Projects />} />

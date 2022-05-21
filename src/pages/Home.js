@@ -1,9 +1,14 @@
 import React from 'react';
-
+import img from '../assets/bg2.jpg'
 function Home() {
  return (
   <div>
-   <h1>Welcome to my Website!</h1>
+   {/* <img src={img} class='bg-img'>
+
+   </img> */}
+   <div class='App-header container'>
+    <h1 class='App-header text-center'>Nicholas De Marco </h1>
+   </div>
   </div>
  )
 }
